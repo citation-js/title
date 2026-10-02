@@ -1,0 +1,22 @@
+{
+  "name": "@citation-js/title",
+  "version": "0.0.0",
+  "description": "Title parsing/formatting functions",
+  "homepage": "https://github.com/citation-js/title#readme",
+  "bugs": {
+    "url": "https://github.com/citation-js/title/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citation-js/title.git"
+  },
+  "license": "MIT",
+  "author": "Lars Willigahgen",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "files": ["src", "index.d.ts"],
+  "scripts": {
+    "test": "node --test --test-reporter spec test/index.js"
+  }
+}
